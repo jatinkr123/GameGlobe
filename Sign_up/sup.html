@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameGlobe - SIGN UP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./sup.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <div class="logo">
+          <a href="#"><img src="/Project_Images/logo.png" alt="no logo" /></a>
+        </div>
+        <br /><br />
+
+        <div>
+          <div id="si">Sign Up</div>
+        </div>
+
+        <form action="https://formspree.io/f/xoqzglzp"
+        method="POST">
+          <div class="outer">
+            <div id="name">
+              <div class="nfl">
+                <input type="text" name="First Name" placeholder="First Name" required autocomplete="off" />
+              </div>
+              <div class="nfl">
+                <input type="text" name="Last Name" placeholder="Last Name" required autocomplete="off"/>
+              </div>
+            </div>
+            <div id="fep">
+              <input type="email" name="Email" placeholder="Email Address" required  autocomplete="off"/>
+            </div>
+            <div id="fep">
+              <input type="password" name="Password" placeholder="Password" required id="id_password" autocomplete="off"/>
+            </div>
+            <i class="far fa-eye" id="togglePassword" style="cursor: pointer"></i>
+            <div id="chk">
+              <input type="checkbox" required /> I have read and agree to the terms of service
+            </div>
+            <a href="" target="_blank"><button>Continue</button></a> 
+            
+            <div id="hbut"><a href="/index.html">Home</a></div>             
+            <div id="text">Privacy Policy</div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script>
+      const togglePassword = document.querySelector("#togglePassword");
+      const password = document.querySelector("#id_password");
+
+      togglePassword.addEventListener("click", function (e) {
+        // toggle the type attribute
+        const type =
+          password.getAttribute("type") === "password" ? "text" : "password";
+        password.setAttribute("type", type);
+        // toggle the eye slash icon
+        this.classList.toggle("fa-eye-slash");
+      });
+    </script>
+  </body>
+</html>

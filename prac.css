@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans,sans-serif,arial;
+    /* background-color: black; */   
+    /* background-image: url('/Background/aestheticar.jpg'); */
+}
+body{
+    background-color: black;
+    /* background-image:url(/Background/dishonored.jpg);
+    background-position: right;
+    background-repeat: no-repeat;  */    
+}
+
+/* -----------------------------NAVBAR CODE----------------------------- */
+
+.navbar{
+    background-color: #2a2a2a;
+    margin-bottom: 30px;
+    
+}
+.navbar ul{
+    position: relative;
+    overflow: auto;
+    /* border: solid 2px purple; */
+}
+.navbar li{
+    position: relative;
+    float: left;
+    /* border: solid 2px yellowgreen; */
+    font-family: OpenSans,sans-serif,arial;
+    list-style: none; 
+    margin: 25px ;
+    
+    
+}
+.navbar li a{
+    position: relative;
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #cccccc;
+    /* transition: 0,7s; */
+}
+.navbar li a:hover{
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+.search{
+
+    float: right;
+    color: white;
+    padding: 15px 15px;
+    /* background-color: yellow; */
+}
+.navbar input{
+    
+    border: none;
+    /* border-radius: 14px; */
+    padding: 10px 30px;
+    width: 200px;
+    outline: none;
+}
+.fa-solid{
+    /* display: flex; */
+    width: 5px;
+    position: relative;
+    top: 2px;
+    right: -13px;
+    color: black;
+    /* background-color: ; */
+    /* border: 2px solid red; */
+    /* padding-left: 60px; */
+}
+/* .search{
+    display: inline-block;
+} */
+span img{
+    /* position: absolute; */
+    position: relative;
+    /* border: solid 2px red; */
+    float:left;
+    height: 69px;
+    /* background-color: black; */
+    /* transition: 0.8s; */
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+}
+
+#b1{
+    background-color:#0078f2;
+    border: solid 1px white;
+    color: #cfe5fd;
+    float: right;
+    margin: 14px;
+    padding: 10px 50px;
+    font-family: 'Lato', sans-serif;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#b1:hover{
+    background-color: #7bbfff;
+    /* color: white; */
+    cursor: pointer;
+}
+
+/* ------------------------Slider-Swiper CODE----------------------------- */
+
+.container{
+    /* border: solid 5px rgb(8, 255, 8); */
+    width:100%;
+    height: 100vh;
+    /* background-image: url(/Background/dishonored.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed; */
+}
+
+#z102{
+    /* margin-top: 100px; */
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 900px;
+    width: 1100px;
+    /* border: 2px solid blue; */
+}
+
+.swiper-slide img{
+    
+    width: 1100px;
+    height: 700px;
+    /* border: solid red 2px; */
+    border-radius:20px ;
+    position: relative;    
+}
+
+/* .emptybox{
+    position: relative;
+    width: 1550px;
+    height: 700px;
+    border: 2px solid red;
+    top: -900px;
+    left: 1220px;
+    background-color: #2a2a2a;
+    border-radius: 20px;
+} */
+
+#swiptext{
+    width: 350px;
+    height: 700px;
+    position: relative;
+    top: -900px;
+    left: 1300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* background-color: #2a2a2a; */
+
+}
+
+#swiptext .tt1{
+    color: white;
+    height: 90px;
+    margin: 15px 20px ;
+    text-align: center;
+    line-height: 90px;
+    font-size: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#06beff,#2d73ff);
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    /* padding: 30px 60px;     */
+    /* border: solid 1px white; */
+}
+
+
+/* ---------------------Games Code---------------------------- */
+
+.outerind h1{
+    /* height: 100px; */
+    /* line-height: 50%; */
+    /* margin-bottom: 50px; */
+    /* border: 2px solid yellow; */
+    margin-left: 150px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 50px;
+    color: rgb(145, 255, 0);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    width: 1480px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+}
+
+.outerind{
+    padding-top: 50px;
+    height: 1300px;
+    width: auto;
+    padding-bottom: 50px;
+    /* border: solid 2px blue; */
+}
+
+.innerind a{
+    text-decoration: none;
+}
+
+.innerind{
+    /* border: 1px solid red; */
+    margin: 0px 150px;
+    height: 1050px;
+    width: 1480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.gamebox{
+    /* border: solid 1px yellow; */
+    
+    /* margin: 0px 80px 0px 0px; */
+    height: 500px;
+    width: 700px;
+}
+.rgame {
+    
+    height: 390px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #2a2a2a;
+    
+}
+
+.rgame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    /* object-fit: cover; */
+}
+
+.gamebox h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    background-color: #2a2a2a;
+    
+    /* border: 1px solid red; */
+}
+.gamebox h3{
+    color: white;
+    background-color: #2a2a2a;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 1px solid red; */
+}
+
+/* -------------------FOOTER CODE------------------------- */
+.f-outer{
+    height: 52vh;
+    width: 100%;
+    color: #0074e4;
+    border: 1px solid #202020;
+    background-color: #202020;
+}
+
+.f-inner{
+    height: 45vh;
+    width: auto;
+    /* border: solid 1px blue; */
+    margin: 30px 70px;
+    background-color: #202020;
+}
+
+.symbols{
+    background-color: #202020;
+}
+#fsymb{
+    font-size: 35px;
+    padding: 5px;
+    color: #cccccc;
+    cursor: pointer;
+    background-color: #202020;
+    transition: color 0.3s ease-in-out;
+    /* border: 1px solid red; */
+}
+#fsymb:hover{
+    color: #0074e4;
+}
+#fsymb2{
+    font-size: 35px;
+    padding: 5px;
+    color: #cccccc;
+    cursor: pointer;
+    background-color: #202020;
+    transition: color 0.3s ease-in-out;
+    /* border: 1px solid red; */
+}
+#fsymb2:hover{
+    color: red;
+}
+
+.fbox1{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #333333;
+    padding-bottom: 30px;
+    background-color: #202020;
+}
+.fbox1 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #656565;
+    background-color: #202020;
+}
+.kmorebox{
+    display: flex;
+    font-size: 14px;
+    background-color: #202020;
+}
+.items1{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    color: #e7e7e7;
+    background-color: #202020;
+}
+.items1 span{
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+.items2{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    color: #e7e7e7;
+    background-color: #202020;
+}
+.items2 span{
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+.items3{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    color: #e7e7e7;
+    background-color: #202020;
+}
+.items3 span{
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+
+.fbox2{
+    width: 950px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333333;
+    background-color: #202020;
+}
+.fbox2 p{
+    background-color: #202020;
+}
+.terms{
+    display: flex;
+    text-decoration: none;
+    background-color: #202020;
+}
+.terms a{
+    text-decoration: none;
+    color: #bdbdbd;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #202020;
+    transition: color 0.3s ease-in-out;
+    /* border: 1px solid yellow; */
+}
+
+.terms :hover{
+    color: rgb(217, 255, 0);
+    
+}

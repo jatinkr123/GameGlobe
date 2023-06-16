@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    background-color: #121212;
+}
+/* ----------------------NAVBAR CODE------------------- */
+.navouter{
+    margin-top: 40px;
+    height: 80px;
+    /* border: solid 1px red; */
+    margin-left: 235px;
+}
+.navinner{
+    height: auto;
+    /* background-color: #202020; */
+    /* border: solid 1px blue; */
+}
+.fa-magnifying-glass{
+    background-color: #202020;
+    /* border: solid 1px yellow; */
+    border-radius: 10px;
+    
+}
+#srchbutt{
+    color: #9a9a9a;
+    width: 25px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: #202020;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+    left: 14px;
+    
+}
+
+.navinner input{
+    height: 50px;
+    /* text-align: left; */
+    color: #5b5b5b;
+    /* border: 5px solid #202020; */
+    border: none;
+    font-size: 15px;
+    outline: none;
+    padding-left: 20px;
+    background-color: #202020;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#home1{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #9a9a9a;
+    transition: color 0.2s ease-in-out;
+}
+
+#home1:hover{
+    color: yellow;
+}
+
+
+
+/* ----------------------MAIN CODE--------------------- */
+
+#outer{
+    /* margin-top: 80px; */
+    height: auto;
+    margin:30px 250px;
+    background-color: #121212;
+    /* display: flex; */
+    /* background-color: red; */
+}
+#gname h3{
+    /* width: 300px; */
+    /* background-color: red; */
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
+
+
+
+.wiperbyj{
+    height: 650px;
+    width: 1000px;
+    margin-top: 40px;
+    /* background-color: aquamarine; */
+    /* border: 5px aqua solid; */
+    /* float: left; */
+}
+
+.sidelogo{
+    height:240px ;
+    width: 400px;
+    margin-top: -650px;
+    margin-left: 1030px;
+    /* border: 1px rgb(255, 0, 0) solid; */
+    /* background-color: blue; */
+    /* float: right; */
+    /* margin-top: 300px; */
+    /* float: right; */
+}
+
+.sidelogo img{
+    margin-top: 5px;
+    height: 220px;
+    width: 350px;
+    margin-left: 25px;
+    
+}
+
+.sdpanel{
+    height: 480px;
+    /* background-color: blue; */
+    margin-left: 1070px;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+    width: 330px;
+}
+
+.content{
+    height: 400px;
+    /* border: 1px solid green; */
+    margin-top: -100px;
+    width: 1000px;
+}
+
+.content h3{
+    padding-top: 50px;
+    color: #ff4655;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.content h4{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content h5{
+    padding-top: 20px;
+    color: #858585;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.specs{
+    /* margin-top: 100px; */
+    height: 700px;
+    background-color: #202020;
+    border: 1px solid #202020;
+    width: 1000px;
+
+}
+#spectext{
+    height: auto;
+    padding: 20px 0px;
+    font-size: 30px;
+    color: white;
+    /* border: solid 1px blue; */
+}
+#free{ 
+    font-size: 25px;
+    color: #d2d2d2;
+    font-family: Inter,sans-serif;
+}
+
+#purch p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9a9a9a;
+    font-family: Inter,sans-serif; 
+    /* border: 2px solid yellow; */
+}
+
+.specin{
+    /* border: solid 1px red; */
+    background-color: #202020;
+    height: 600px;
+    margin: 80px 60px;
+}
+.windspec{
+    color: white;
+    /* margin-top: 50px; */
+    background-color: #202020;
+    width: 100px;
+    font-size: 15px;
+    /* border: 1px solid green; */
+    /* margin: 5px 0px; */
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+#specset{
+    color: #9f9f9f;
+    border-top: 1px solid #373737;
+    background-color: #202020;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 1px solid blueviolet; */
+    /* margin-top: 20px; */
+}
+#min{
+    position: relative;
+    right: 348px;
+    background-color: #202020;
+}
+#rec{
+    position: relative;
+    left: 40px;
+    background-color: #202020;
+}
+.os_outer{
+    display: flex;
+    /* flex-basis: calc(100% / 2 - 1/2 * 20px); */
+    background-color: #202020;
+    color: #f5f5f5;
+    padding-bottom: 20px;
+
+    
+}
+.os_inner1{
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+}
+.os_inner2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 368px;
+}
+.os_inner3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 87px;
+}
+.os_inner4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 390px;
+}
+.os_inner5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+}
+#os101{
+    color: #9f9f9f;
+    background-color: #202020;
+}
+#os102{
+    background-color: #202020;
+}
+
+.lang{
+    color: #9f9f9f;
+    margin-top: 20px;
+    background-color: #202020;
+    /* border: 1px solid yellow; */
+}
+
+.nlang{
+    color: white;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #373737;
+    background-color: #202020;
+}
+
+.copyr{
+    margin-top: 30px;
+    color: #9f9f9f;
+    background-color: #202020;
+}
+
+#privpol{
+    padding: 10px;
+    color: white;
+    margin: auto;
+    background-color: #202020;
+    /* border: solid 1px red; */
+    text-align: center;
+}
+
+.buttget button{
+    margin-top: 10px;
+    padding: 14px;
+    background-color: #0074e4;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    border: none;
+    font-weight: bold;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    
+}
+.buttget button:hover{
+    background-color: #46a6ff;
+}
+.buttcart button{
+    margin-top: 10px;
+    padding: 14px;
+    background-color: #121212;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    border: 1px solid #9a9a9a;
+    font-weight: bold;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    
+}
+.buttcart button:hover{
+    background-color: #4b4b4b;
+}
+.buttwlist button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #121212;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    border: 1px solid #9a9a9a;
+    font-weight: bold;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.buttwlist button:hover{
+    background-color: #4b4b4b;
+}
+#plus{
+    height: 10px;
+    /* background-color: #fff;
+    border-color: #f5f5f5; */
+}
+
+.fa-plus{
+    position: relative;
+    left: 85px;
+    top: -27px;
+    color: white;
+    cursor: pointer;
+    /* height: 15px;
+    width: 15px; */
+}
+
+.t1{
+    /* border-top: solid red 1px; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family: Inter,sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.t2{
+    color: #858585;
+    font-weight: bold;
+    
+}
+
+.buttcont{
+    display: flex;
+    justify-content: space-around;
+}
+.b1 button{
+    margin-top: 15px;
+    margin-left: -10px;
+    padding: 10px 40px;
+    border: solid 1px #9a9a9a;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Inter,sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.b1 button:hover{
+    background-color: #4b4b4b;
+}
+.fa-share-nodes{
+    color: white;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    /* background-color: #0074e4; */
+}
+.fa-windows{
+    font-size: 20px;
+}
+.fa-flag{
+    color: white;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    /* background-color: #0074e4; */
+}
+
+
+
+/* --------------------FOOTER CODE--------------- */
+
+.f-outer{
+    height: 52vh;
+    width: 100%;
+    color: #0074e4;
+    border: 1px solid #202020;
+    background-color: #202020;
+}
+
+.f-inner{
+    height: 45vh;
+    width: auto;
+    /* border: solid 1px blue; */
+    margin: 30px 70px;
+    background-color: #202020;
+}
+
+.symbols{
+    background-color: #202020;
+}
+#fsymb{
+    font-size: 35px;
+    padding: 5px;
+    color: #cccccc;
+    cursor: pointer;
+    background-color: #202020;
+    transition: color 0.3s ease-in-out;
+    /* border: 1px solid red; */
+}
+#fsymb:hover{
+    color: #0074e4;
+}
+#fsymb2{
+    font-size: 35px;
+    padding: 5px;
+    color: #cccccc;
+    cursor: pointer;
+    background-color: #202020;
+    transition: color 0.3s ease-in-out;
+    /* border: 1px solid red; */
+}
+#fsymb2:hover{
+    color: red;
+}
+
+.fbox1{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #333333;
+    padding-bottom: 30px;
+    background-color: #202020;
+}
+.fbox1 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #656565;
+    background-color: #202020;
+}
+.kmorebox{
+    display: flex;
+    font-size: 14px;
+    background-color: #202020;
+}
+.items1{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    color: #e7e7e7;
+    background-color: #202020;
+}
+.items1 span{
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+.items2{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    color: #e7e7e7;
+    background-color: #202020;
+}
+.items2 span{
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+.items3{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    color: #e7e7e7;
+    background-color: #202020;
+}
+.items3 span{
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+
+.fbox2{
+    width: 950px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333333;
+    background-color: #202020;
+}
+.fbox2 p{
+    background-color: #202020;
+}
+.terms{
+    display: flex;
+    text-decoration: none;
+    background-color: #202020;
+}
+.terms a{
+    text-decoration: none;
+    color: #bdbdbd;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #202020;
+    transition: color 0.3s ease-in-out;
+    /* border: 1px solid yellow; */
+}
+
+.terms :hover{
+    color: rgb(217, 255, 0);
+    
+}
+
+
+/* -------------------SwiperCSS------------ */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+
+}
+
+.swiper-slide video{
+    object-fit: cover;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    /* UPPER SWIPER BOX */
+    /* border: 2px solid red; */
+    /* height: 80%; */
+    height: 500px;
+    width: 100%;
+    margin-bottom: 9px;
+    /* padding-bottom: 5px; */
+}
+
+.mySwiper {
+    /* 2nd swiper height */
+    height:120px;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    margin-left: 5px;
+    /* padding: 10px 2px; */
+    
+}
+
+.mySwiper .swiper-slide {
+    /* width: 25%;
+    height: 100%; */
+    opacity: 0.4;
+    padding: 0px ;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
