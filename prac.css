@@ -271,7 +271,7 @@ header {
 
 /* -------------------FOOTER CODE------------------------- */
 .f-outer {
-  height: 60vw;
+  height: 50rem;
   width: 100%;
   color: #0074e4;
   border: 1px solid #202020;
@@ -279,11 +279,12 @@ header {
 }
 
 .f-inner {
-  height: 23vw;
+  height: 40rem;
   width: 100rem;
   margin: 5rem 7rem;
   background-color: #202020;
-  border: solid 1px #202020;
+  /* border: solid 1px #202020; */
+
 }
 
 .symbols {
