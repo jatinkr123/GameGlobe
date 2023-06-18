@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto+Slab&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,11 @@
     /* background-color: black; */   
     /* background-image: url('/Background/aestheticar.jpg'); */
 }
+
+html {
+    font-size: 62.5%;
+}
+
 body{
     background-color: black;
     /* background-image:url(/Background/dishonored.jpg);
@@ -19,7 +25,7 @@ body{
 
 .navbar{
     background-color: #2a2a2a;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     
 }
 .navbar ul{
@@ -33,13 +39,13 @@ body{
     /* border: solid 2px yellowgreen; */
     font-family: OpenSans,sans-serif,arial;
     list-style: none; 
-    margin: 25px ;
+    margin: 2.5rem ;
     
     
 }
 .navbar li a{
     position: relative;
-    padding: 3px 3px;
+    padding: 0.3rem 0.3rem;
     text-decoration: none;
     color: #cccccc;
     /* transition: 0,7s; */
@@ -52,24 +58,25 @@ body{
 
     float: right;
     color: white;
-    padding: 15px 15px;
+    padding: 1.5rem 1.5rem;
     /* background-color: yellow; */
 }
 .navbar input{
     
     border: none;
     /* border-radius: 14px; */
-    padding: 10px 30px;
-    width: 200px;
+    padding: 1rem 3rem;
+    width: 20rem;
     outline: none;
 }
 .fa-solid{
     /* display: flex; */
-    width: 5px;
+    width: 0.2rem;
     position: relative;
-    top: 2px;
-    right: -13px;
+    /* top: 2px; */
+    right: -1.3rem;
     color: black;
+    font-size: 1.2rem;
     /* background-color: ; */
     /* border: 2px solid red; */
     /* padding-left: 60px; */
@@ -82,7 +89,7 @@ span img{
     position: relative;
     /* border: solid 2px red; */
     float:left;
-    height: 69px;
+    height: 6.9rem;
     /* background-color: black; */
     /* transition: 0.8s; */
 }
@@ -97,11 +104,11 @@ header{
 
 #b1{
     background-color:#0078f2;
-    border: solid 1px white;
+    border: solid 0.1rem white;
     color: #cfe5fd;
     float: right;
-    margin: 14px;
-    padding: 10px 50px;
+    margin: 1.4rem;
+    padding: 1rem 5rem;
     font-family: 'Lato', sans-serif;
     transition: background-color 0.3s ease-in-out;
 }
@@ -115,31 +122,28 @@ header{
 /* ------------------------Slider-Swiper CODE----------------------------- */
 
 .container{
-    /* border: solid 5px rgb(8, 255, 8); */
-    width:100%;
-    height: 100vh;
-    /* background-image: url(/Background/dishonored.jpg); */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-attachment: fixed; */
+    height: 80rem;
+    width: auto;
+    margin-top: 7rem;
+    /* border: solid 2px rgb(8, 255, 8); */
+    /* overflow: hidden; */
 }
 
 #z102{
     /* margin-top: 100px; */
-    margin-left: 150px;
-    margin-top: 100px;
-    height: 900px;
-    width: 1100px;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    height: 90rem;
+    width: 110rem;
     /* border: 2px solid blue; */
 }
 
 .swiper-slide img{
     
-    width: 1100px;
-    height: 700px;
+    width: 110rem;
+    height: 70rem;
     /* border: solid red 2px; */
-    border-radius:20px ;
+    border-radius:2rem ;
     position: relative;    
 }
 
@@ -155,12 +159,12 @@ header{
 } */
 
 #swiptext{
-    width: 350px;
-    height: 700px;
+    width: 35rem;
+    height: 70rem;
     position: relative;
-    top: -900px;
-    left: 1300px;
-    border-radius: 20px;
+    top: -90rem;
+    left: 130rem;
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,17 +175,17 @@ header{
 
 #swiptext .tt1{
     color: white;
-    height: 90px;
-    margin: 15px 20px ;
+    height: 9rem;
+    margin: 1rem 2rem ;
     text-align: center;
-    line-height: 90px;
-    font-size: 15px;
-    border-radius: 20px;
+    line-height: 9rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
     text-transform: uppercase;
     font-weight: bold;
     background-image: linear-gradient(to right,#06beff,#2d73ff);
     font-family: 'Noto Sans', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     /* padding: 30px 60px;     */
     /* border: solid 1px white; */
 }
@@ -194,25 +198,25 @@ header{
     /* line-height: 50%; */
     /* margin-bottom: 50px; */
     /* border: 2px solid yellow; */
-    margin-left: 150px;
-    margin-bottom: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    font-size: 50px;
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    font-size: 5rem;
     color: rgb(145, 255, 0);
     font-family: 'Lato', sans-serif;
-    letter-spacing: 1px;
-    width: 1480px;
+    letter-spacing: 0.1rem;
+    width: 148rem;
     background-color: #2a2a2a;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .outerind{
-    padding-top: 50px;
-    height: 1300px;
+    padding-top: 5rem;
+    height: 130rem;
     width: auto;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
     /* border: solid 2px blue; */
 }
 
@@ -222,9 +226,9 @@ header{
 
 .innerind{
     /* border: 1px solid red; */
-    margin: 0px 150px;
-    height: 1050px;
-    width: 1480px;
+    margin: 0rem 15rem;
+    height: 105rem;
+    width: 148rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -235,14 +239,14 @@ header{
     /* border: solid 1px yellow; */
     
     /* margin: 0px 80px 0px 0px; */
-    height: 500px;
-    width: 700px;
+    height: 50rem;
+    width: 70rem;
 }
 .rgame {
     
-    height: 390px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    height: 39rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
     background-color: #2a2a2a;
     
 }
@@ -251,15 +255,15 @@ header{
     display: block;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 2rem;
     /* object-fit: cover; */
 }
 
 .gamebox h2{
     color: white;
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 30px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 3rem;
     background-color: #2a2a2a;
     
     /* border: 1px solid red; */
@@ -267,18 +271,18 @@ header{
 .gamebox h3{
     color: white;
     background-color: #2a2a2a;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 25px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     /* border: 1px solid red; */
 }
 
 /* -------------------FOOTER CODE------------------------- */
 .f-outer{
-    height: 52vh;
+    height: 50vh;
     width: 100%;
     color: #0074e4;
     border: 1px solid #202020;
@@ -286,19 +290,19 @@ header{
 }
 
 .f-inner{
-    height: 45vh;
+    height: 20vw;
     width: auto;
-    /* border: solid 1px blue; */
-    margin: 30px 70px;
+    margin: 3rem 7rem;
     background-color: #202020;
+    /* border: solid 1px blue; */
 }
 
 .symbols{
     background-color: #202020;
 }
 #fsymb{
-    font-size: 35px;
-    padding: 5px;
+    font-size: 3.5rem;
+    padding: 0.5rem;
     color: #cccccc;
     cursor: pointer;
     background-color: #202020;
@@ -309,8 +313,8 @@ header{
     color: #0074e4;
 }
 #fsymb2{
-    font-size: 35px;
-    padding: 5px;
+    font-size: 3.5rem;
+    padding: 0.5rem;
     color: #cccccc;
     cursor: pointer;
     background-color: #202020;
@@ -323,24 +327,24 @@ header{
 
 .fbox1{
     /* border: 1px solid red; */
-    border-bottom: 1px solid #333333;
-    padding-bottom: 30px;
+    border-bottom: 0.1rem solid #333333;
+    padding-bottom: 3rem;
     background-color: #202020;
 }
 .fbox1 p{
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
     color: #656565;
     background-color: #202020;
 }
 .kmorebox{
     display: flex;
-    font-size: 14px;
+    font-size: 1.4rem;
     background-color: #202020;
 }
 .items1{
-    padding: 5px 0px;
+    padding: 0.5rem 0rem;
     display: flex;
     flex-direction: column;
     /* border: 1px solid green; */
@@ -348,11 +352,11 @@ header{
     background-color: #202020;
 }
 .items1 span{
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     background-color: #202020;
 }
 .items2{
-    padding: 5px 30px;
+    padding: 0.5rem 3rem;
     display: flex;
     flex-direction: column;
     /* border: 1px solid green; */
@@ -360,11 +364,11 @@ header{
     background-color: #202020;
 }
 .items2 span{
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     background-color: #202020;
 }
 .items3{
-    padding: 5px 30px;
+    padding: 0.5rem 3rem;
     display: flex;
     flex-direction: column;
     /* border: 1px solid green; */
@@ -372,18 +376,18 @@ header{
     background-color: #202020;
 }
 .items3 span{
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     background-color: #202020;
 }
 
 .fbox2{
-    width: 950px;
-    font-size: 13px;
-    letter-spacing: 1px;
+    width: 95rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
     color: #bdbdbd;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #333333;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid #333333;
     background-color: #202020;
 }
 .fbox2 p{
@@ -397,10 +401,10 @@ header{
 .terms a{
     text-decoration: none;
     color: #bdbdbd;
-    padding-top: 20px;
-    padding-right: 20px;
-    font-size: 14px;
-    letter-spacing: 1px;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
     background-color: #202020;
     transition: color 0.3s ease-in-out;
     /* border: 1px solid yellow; */
@@ -409,4 +413,16 @@ header{
 .terms :hover{
     color: rgb(217, 255, 0);
     
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
 }
