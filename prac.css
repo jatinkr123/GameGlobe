@@ -282,7 +282,7 @@ header{
 
 /* -------------------FOOTER CODE------------------------- */
 .f-outer{
-    height: 50vh;
+    height: 28vw;
     width: 100%;
     color: #0074e4;
     border: 1px solid #202020;
@@ -290,11 +290,11 @@ header{
 }
 
 .f-inner{
-    height: 20vw;
-    width: 100%;
-    margin: 3rem 7rem;
+    height: 23vw;
+    width:100rem;
+    margin: 5rem 7rem;
     background-color: #202020;
-    /* border: solid 1px blue; */
+    border: solid 1px #202020;
 }
 
 .symbols{
@@ -326,7 +326,8 @@ header{
 }
 
 .fbox1{
-    /* border: 1px solid red; */
+    /* border: 1px solid yellow; */
+    width: 51rem;
     border-bottom: 0.1rem solid #333333;
     padding-bottom: 3rem;
     background-color: #202020;
@@ -340,14 +341,17 @@ header{
 }
 .kmorebox{
     display: flex;
+    width: 50rem;
     font-size: 1.4rem;
     background-color: #202020;
+    
+    /* border: 1px solid green; */
 }
 .items1{
     padding: 0.5rem 0rem;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid green; */
+    /* border: 1px solid purple; */
     color: #e7e7e7;
     background-color: #202020;
 }
@@ -374,8 +378,10 @@ header{
     /* border: 1px solid green; */
     color: #e7e7e7;
     background-color: #202020;
+    /* border: solid 1px red; */
 }
 .items3 span{
+    display: block;
     margin-bottom: 0.5rem;
     background-color: #202020;
 }
@@ -394,6 +400,7 @@ header{
     background-color: #202020;
 }
 .terms{
+    width: 50rem;
     display: flex;
     text-decoration: none;
     background-color: #202020;
