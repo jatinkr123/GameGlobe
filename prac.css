@@ -291,7 +291,7 @@ header{
 
 .f-inner{
     height: 20vw;
-    width: auto;
+    width: 100%;
     margin: 3rem 7rem;
     background-color: #202020;
     /* border: solid 1px blue; */
