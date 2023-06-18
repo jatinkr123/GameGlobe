@@ -114,50 +114,37 @@ header {
   cursor: pointer;
 }
 
-/* ------------------------Slider-Swiper CODE----------------------------- */
+/* ------------------------SlideShow CODE----------------------------- */
 
-.container {
-  height: 80rem;
-  width: auto;
-  margin-top: 7rem;
-  /* border: solid 2px rgb(8, 255, 8); */
-  /* overflow: hidden; */
-}
-
-#z102 {
-  /* margin-top: 100px; */
+.container{
+  margin-top: 15rem;
   margin-left: 15rem;
-  margin-top: 5rem;
-  height: 90rem;
-  width: 110rem;
-  /* border: 2px solid blue; */
+  width: 148rem;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: space-between;
 }
 
-.swiper-slide img {
+.content{
+  /* border: 1px solid yellow; */
+  
+  /* margin-left: 15rem; */
+  border-radius: 2rem;
   width: 110rem;
   height: 70rem;
-  /* border: solid red 2px; */
-  border-radius: 2rem;
-  position: relative;
 }
 
-/* .emptybox{
-    position: relative;
-    width: 1550px;
-    height: 700px;
-    border: 2px solid red;
-    top: -900px;
-    left: 1220px;
-    background-color: #2a2a2a;
-    border-radius: 20px;
-} */
+.content img{
+  height: 70rem;
+  border-radius: 2rem;
+}
 
 #swiptext {
-  width: 35rem;
+  width: 30rem;
   height: 70rem;
-  position: relative;
-  top: -90rem;
-  left: 130rem;
+  /* position: relative;
+  top: -56rem;
+  left: 120rem; */
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -169,7 +156,7 @@ header {
 #swiptext .tt1 {
   color: white;
   height: 9rem;
-  margin: 1rem 2rem;
+  margin: 1rem 0rem;
   text-align: center;
   line-height: 9rem;
   font-size: 1.5rem;
@@ -270,17 +257,25 @@ header {
 }
 
 /* -------------------FOOTER CODE------------------------- */
+footer{
+  height: auto;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .f-outer {
-  height: 50rem;
-  width: 100%;
+  /* height: 50rem;
+  width: 100%; */
   color: #0074e4;
   border: 1px solid #202020;
   background-color: #202020;
 }
 
 .f-inner {
-  height: 40rem;
-  width: 100rem;
+  /* height: 40rem;
+  width: 100rem; */
   margin: 5rem 7rem;
   background-color: #202020;
   /* border: solid 1px #202020; */
@@ -317,7 +312,7 @@ header {
 
 .fbox1 {
   /* border: 1px solid yellow; */
-  width: 51rem;
+  /* width: 51rem; */
   border-bottom: 0.1rem solid #333333;
   padding-bottom: 3rem;
   background-color: #202020;
@@ -331,7 +326,7 @@ header {
 }
 .kmorebox {
   display: flex;
-  width: 50rem;
+  /* width: 50rem; */
   font-size: 1.4rem;
   background-color: #202020;
 
@@ -377,7 +372,7 @@ header {
 }
 
 .fbox2 {
-  width: 95rem;
+  /* width: 95rem; */
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   color: #bdbdbd;
@@ -390,7 +385,7 @@ header {
   background-color: #202020;
 }
 .terms {
-  width: 50rem;
+  /* width: 50rem; */
   display: flex;
   text-decoration: none;
   background-color: #202020;

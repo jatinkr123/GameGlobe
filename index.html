@@ -33,27 +33,19 @@
         </nav>
     </header>
 
-    <!-- <h1 style="color: white;">The Ultimate Gaming Destination</h1> -->
-    <!-- <Span class="txt1">The Ultimate</Span><br>
-    <Span class="txt1">Gaming Destination</Span> -->
     
-    <div class="container">        
-            <div class="swiper">
-                <div class="swiper-wrapper" id="z102">
-                    <div class="swiper-slide"><a href="./Games_pages/SliderGames/Spider-Man/spidey.html" target="_blank"><img src="./Project_Images/Games pic hd/Marvel's Spider-Man.jpg"></a> </div>
 
-                    <div class="swiper-slide"><a href="./Games_pages/SliderGames/Valorant/valo.html" target="_blank"><img src="./Project_Images/Games pic hd/Valorant.jpg" alt="Valo"></a> </div>
-                    
-                    <div class="swiper-slide"><a href="./Games_pages/SliderGames/ACRogue/acr.html" target="_blank"><img src="./Project_Images/Games pic hd/Assassins' Creed Rogue.jpg" alt="acu"></a> </div>
-                    
-                    <div class="swiper-slide"><a href="./Games_pages/SliderGames/BlackOps3/bo3.html" target="_blank"><img src="./Project_Images/Games pic hd/Call of Duty Black Ops 3.jpg" alt="di2"></a> </div>
-                    
-                    <div class="swiper-slide"><a href="./Games_pages/SliderGames/HarryPotter/hogwarts.html" target="_blank"><img src="https://i0.wp.com/xboxera.com/wp-content/uploads/2022/03/hogwarts-legacy.jpg?fit=1280%2C720&ssl=1" alt="hp" ></a> </div>
-                    
-                    <div class="swiper-slide"><a href="./Games_pages/SliderGames/ACUnity/acu.html" target="_blank"><img src="./Project_Images/Games pic hd/Assassin's Creed Unity.jpg" alt="jedi"></a> </div>
-                </div>
-            </div>
-            
+    <div class="container">
+
+        <div class="content" >
+            <a href="./Games_pages/SliderGames/Spider-Man/spidey.html" target="_blank"><img class="mySlides" src="./Project_Images/Games pic hd/Marvel's Spider-Man.jpg" style="width:100%" ></a>
+            <a href="./Games_pages/SliderGames/Valorant/valo.html" target="_blank"><img class="mySlides" src="./Project_Images/Games pic hd/Valorant.jpg" alt="Valo" style="width:100%" ></a>
+            <a href="./Games_pages/SliderGames/ACRogue/acr.html" target="_blank"><img class="mySlides" src="./Project_Images/Games pic hd/Assassins' Creed Rogue.jpg" alt="acu" style="width:100%" ></a>
+            <a href="./Games_pages/SliderGames/BlackOps3/bo3.html" target="_blank"><img class="mySlides" src="./Project_Images/Games pic hd/Call of Duty Black Ops 3.jpg" alt="di2" style="width:100%" ></a>
+            <a href="./Games_pages/SliderGames/HarryPotter/hogwarts.html" target="_blank"><img class="mySlides" src="https://i0.wp.com/xboxera.com/wp-content/uploads/2022/03/hogwarts-legacy.jpg?fit=1280%2C720&ssl=1" alt="hp"  style="width:100%" >
+                <a href="./Games_pages/SliderGames/ACUnity/acu.html" target="_blank"><img class="mySlides" src="./Project_Images/Games pic hd/Assassin's Creed Unity.jpg" alt="jedi" style="width:100%" ></a>
+        </div>
+    
         <div id="swiptext">
             <div class="tt1">Explore Games Like</div>
             <div class="tt1">Racing games</div>
@@ -61,10 +53,7 @@
             <div class="tt1">Shooting Games</div>
             <div class="tt1">Sports Games</div>
         </div>
-        <div class="emptybox"></div>
-            
-        
-        
+
     </div>
 
 
@@ -267,26 +256,22 @@
         </div>
       </footer>
 
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>    
-
     <script>
-        const swiper = new Swiper('.swiper', {
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
+var myIndex = 0;
+carousel();
 
-            },
-            loop: true,
-          });
-    </script>
-    <!-- <script type="text/javascript">
-        window.addEventListener("scroll",function(){
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky" , window.scrollY > 0);
-        })
-        
-    </script> -->
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
 </body>
 </html>
