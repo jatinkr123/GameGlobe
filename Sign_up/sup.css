@@ -30,6 +30,7 @@ main{
 .logo{
     height: 7rem;
     /* background-color: yellow; */
+    background-color: #202020;
     margin-top: 5rem;
     margin-left: 9rem;
     width: 25rem ;
@@ -39,6 +40,10 @@ main{
     width: 25rem;
     background-color: #202020;
     margin: auto;
+}
+
+form{
+    background-color: #202020;
 }
 
 #si{
@@ -58,6 +63,7 @@ main{
 
 .outer{
     /* border: solid 1px red; */
+    background-color: #202020;
     margin: 5rem;
     height: 50rem;
 }
@@ -65,6 +71,11 @@ main{
 #name{
     display: flex;
     justify-content: space-between;   
+    background-color: #202020;
+}
+
+.nfl{
+    background-color: #202020;
 }
 
 .nfl input{
@@ -86,6 +97,10 @@ main{
 
 .nfl input:focus{
     border: solid 0.1rem white;
+}
+
+#fep{
+    background-color: #202020;
 }
 
 #fep input{
@@ -112,6 +127,7 @@ main{
     color: white;
     font-size: 1.2rem;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #202020;
 }
 
 #chk input[type=checkbox]{
@@ -141,6 +157,7 @@ button:hover{
 #hbut{
     display: flex;
     justify-content: center;
+    background-color: #202020;
 }
 
 #hbut a{
@@ -170,6 +187,7 @@ button:hover{
     font-size: 1.4rem;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #202020;
 
 }
 

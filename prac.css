@@ -118,11 +118,12 @@ header {
 
 .container{
   margin-top: 15rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
   width: 148rem;
   /* border: 1px solid yellow; */
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
 }
 
@@ -178,8 +179,8 @@ header {
   /* line-height: 50%; */
   /* margin-bottom: 50px; */
   /* border: 2px solid yellow; */
-  margin-left: 15rem;
-  margin-right: 15rem;
+  /* margin-left: 15rem;
+  margin-right: 15rem; */
   margin-bottom: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -194,12 +195,15 @@ header {
 }
 
 .outerind {
-  /* padding-top: 5rem;
-  padding-bottom: 5rem; */
-  padding: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   height: 130rem;
-  width: auto;
+  width: 148rem;
+  margin-left: 20rem;
   /* border: solid 2px blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .innerind a {
@@ -209,17 +213,18 @@ header {
 .innerind {
   /* border: 1px solid red; */
   /* margin: 0rem 15rem; */
-  margin-left: 15rem;
-  margin-right: 15rem;
+  /* margin-left: 15rem;
+  margin-right: 15rem; */
   height: 105rem;
   width: 148rem;
   display: flex;
+  flex-flow: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .gamebox {
-  border: solid 1px yellow;
+  /* border: solid 1px yellow; */
 
   /* margin: 0px 80px 0px 0px; */
   height: 50rem;
