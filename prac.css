@@ -119,6 +119,7 @@ header {
 .container{
   margin-top: 15rem;
   margin-left: 15rem;
+  margin-right: 15rem;
   width: 148rem;
   /* border: 1px solid yellow; */
   display: flex;
@@ -178,6 +179,7 @@ header {
   /* margin-bottom: 50px; */
   /* border: 2px solid yellow; */
   margin-left: 15rem;
+  margin-right: 15rem;
   margin-bottom: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -192,10 +194,11 @@ header {
 }
 
 .outerind {
-  padding-top: 5rem;
+  /* padding-top: 5rem;
+  padding-bottom: 5rem; */
+  padding: 5rem;
   height: 130rem;
   width: auto;
-  padding-bottom: 5rem;
   /* border: solid 2px blue; */
 }
 
@@ -205,7 +208,9 @@ header {
 
 .innerind {
   /* border: 1px solid red; */
-  margin: 0rem 15rem;
+  /* margin: 0rem 15rem; */
+  margin-left: 15rem;
+  margin-right: 15rem;
   height: 105rem;
   width: 148rem;
   display: flex;
@@ -214,7 +219,7 @@ header {
 }
 
 .gamebox {
-  /* border: solid 1px yellow; */
+  border: solid 1px yellow;
 
   /* margin: 0px 80px 0px 0px; */
   height: 50rem;
@@ -247,9 +252,7 @@ header {
 .gamebox h3 {
   color: white;
   background-color: #2a2a2a;
-  padding-left: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
   font-size: 2rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
@@ -258,8 +261,8 @@ header {
 
 /* -------------------FOOTER CODE------------------------- */
 footer{
-  height: auto;
-  width: 100vw;
+  height: 45rem;
+  width: auto;
   bottom: 0;
   left: 0;
   right: 0;
