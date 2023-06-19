@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #121212; */
+    background-color: #121212;
 }
 
 html {
@@ -67,7 +67,7 @@ main{
 .fa-google{
     height: 2.7rem;
     width: 5rem;
-    /* background-color: blue; */
+    background-color: white;
     color: red;
     /* border: solid black 1px; */
 }
@@ -130,35 +130,35 @@ main{
 .fa-facebook{
     height: 2.7rem;
     width: 5rem;
-    /* background-color: blue; */
+    background-color: #1877f2;
     color: white;
     /* border: solid black 1px; */
 }
 .fa-discord{
     height: 2.7rem;
     width: 5rem;
-    /* background-color: blue; */
+    background-color: #5562ea;
     color: white;
     /* border: solid black 1px; */
 }
 .fa-steam{
     height: 2.7rem;
     width: 5rem;
-    /* background-color: blue; */
+    background-color: #145c8f;
     color: white;
     /* border: solid black 1px; */
 }
 .fa-xbox{
     height: 2.7rem;
     width: 5rem;
-    /* background-color: blue; */
+    background-color: #027d00;
     color: white;
     /* border: solid black 1px; */
 }
 .fa-apple{
     height: 2.7rem;
     width: 5rem;
-    /* background-color: blue; */
+    background-color: #ffffff;
     color: black;
     /* border: solid black 1px; */
 }
@@ -219,7 +219,7 @@ main{
     color: white;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
-    /* background-color: aqua; */
+    background-color: #2b2b2b;
 }
 
 #ltext{
@@ -228,10 +228,12 @@ main{
     margin-left: 8.5rem;
     font-size: 1.4rem;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #202020;
 }
 
 #signup{
     color: #ffffff;
+    background-color: #202020;
 }
 
 
