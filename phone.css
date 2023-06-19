@@ -1,0 +1,82 @@
+/* ---------------------NavBar Code---------------------------- */
+
+.navbar ul {
+  height: 18rem;
+}
+
+span img {
+  float: none;
+  margin-left: 10rem;
+  margin-right: 6rem;
+  display: block;
+}
+
+.navbar li {
+  margin: 2rem;
+}
+
+.search {
+  float: none;
+  position: relative;
+  left: 23rem;
+  top: -6rem;
+}
+
+#b1 {
+  float: none;
+  margin: 0rem;
+  display: inline-block;
+  margin-left: 5rem;
+}
+
+/* ------------------------SlideShow CODE--------------------------*/
+
+.container {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  width: auto;
+}
+
+.content {
+  width: auto;
+  height: auto;
+}
+
+#swiptext {
+  width: auto;
+  height: auto;
+  margin-top: 5rem;
+}
+
+.content img {
+  height: 100%;
+}
+
+#swiptext .tt1 {
+  margin: 1rem 6rem;
+  width: 30rem;
+}
+
+/* ---------------------Games Code---------------------------- */
+
+.outerind {
+  height: auto;
+  width: auto;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.innerind {
+  height: auto;
+  width: auto;
+}
+
+.gamebox {
+  height: auto;
+  width: auto;
+  padding-bottom: 5rem;
+}
+
+.rgame {
+  height: 28rem;
+}
