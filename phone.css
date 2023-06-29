@@ -42,14 +42,15 @@ span img {
   height: auto;
 }
 
-#swiptext {
-  width: auto;
-  height: auto;
-  margin-top: 5rem;
-}
-
 .content img {
   height: 100%;
+}
+
+#swiptext {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  align-items: center;
 }
 
 #swiptext .tt1 {
