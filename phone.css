@@ -4,27 +4,32 @@
   width: 100%;
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   margin: 0rem 0rem 1rem 0rem;
 }
 
 .navbar li {
   padding: 1rem 1rem;
 }
-.navbar span{
+.navbar span {
   display: inline-block;
   width: 100%;
   /* border: solid 2px red; */
   text-align: center;
 }
 
-#rnav{
+#rnav {
   /* border: solid 2px red; */
   width: 100%;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
+.navbar li a:hover {
+  color: yellow;
+  border-bottom: none;
+  transition: none;
+}
 
 /* ------------------------SlideShow CODE--------------------------*/
 
