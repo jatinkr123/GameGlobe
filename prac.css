@@ -120,7 +120,7 @@ input {
   margin-top: 5rem;
   margin-left: 20rem;
   margin-right: 20rem;
-  width: 148rem;
+  width: auto;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
@@ -133,13 +133,13 @@ input {
 }
 
 .content img{
-  height: 70rem;
+  height: auto;
   border-radius: 2rem;
 }
 
 #swiptext {
   width: 30rem;
-  height: 70rem;
+  height: 63rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -174,7 +174,7 @@ input {
   color: rgb(145, 255, 0);
   font-family: "Lato", sans-serif;
   letter-spacing: 0.1rem;
-  width: 148rem;
+  width: 100%;
   background-color: #2a2a2a;
   border-radius: 1rem;
 }
@@ -182,10 +182,10 @@ input {
 .outerind {
   padding-top: 10rem;
   padding-bottom: 5rem;
-  height: 130rem;
-  width: 148rem;
+  height: auto;
+  width: auto;
   margin-left: 20rem;
-  
+  margin-right: 20rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -193,19 +193,22 @@ input {
 
 .innerind a {
   text-decoration: none;
+  height: auto;
+  width: 49%;
+  padding: 2rem 0rem;
 }
 
 .innerind {
-  height: 105rem;
-  width: 148rem;
+  height: auto;
+  width: auto;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
 }
 
 .gamebox {
-  height: 50rem;
-  width: 70rem;
+  height: auto;
+  width: 100%;
 }
 .rgame {
   height: 39rem;
@@ -391,7 +394,17 @@ footer{
   color: rgb(217, 255, 0);
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1350px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1180px) {
+  html {
+    font-size: 45%;
+  }
+}
+/* @media (max-width: 1350px) {
   html {
     font-size: 55%;
   }
@@ -400,4 +413,4 @@ footer{
   html {
     font-size: 45%;
   }
-}
+} */
