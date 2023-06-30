@@ -1,33 +1,30 @@
 /* ---------------------NavBar Code---------------------------- */
 
 .navbar ul {
-  height: 18rem;
-}
-
-span img {
-  float: none;
-  margin-left: 10rem;
-  margin-right: 6rem;
-  display: block;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;  
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 .navbar li {
-  margin: 2rem;
+  padding: 1rem 1rem;
 }
-
-.search {
-  float: none;
-  position: relative;
-  left: 23rem;
-  top: -6rem;
-}
-
-#b1 {
-  float: none;
-  margin: 0rem;
+.navbar span{
   display: inline-block;
-  margin-left: 5rem;
+  width: 100%;
+  /* border: solid 2px red; */
+  text-align: center;
 }
+
+#rnav{
+  /* border: solid 2px red; */
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
 
 /* ------------------------SlideShow CODE--------------------------*/
 

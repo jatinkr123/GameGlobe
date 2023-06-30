@@ -26,42 +26,73 @@ body {
 .navbar {
   background-color: #2a2a2a;
   margin-bottom: 3rem;
-}
-.navbar ul {
+  width: 100%;
+  height: auto;
+  display: flex;
   position: relative;
-  overflow: auto;
-  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
 }
-.navbar li {
-  position: relative;
-  float: left;
-  font-family: OpenSans, sans-serif, arial;
+
+.navbar span{
+  height: auto;
+  width: auto;
+  /* border: solid 2px blue; */
+}
+
+.navbar img {
+  display: inline-block;
+  height: auto;
+  width: 25rem;
+  /* border: solid 2px black; */
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  /* border: solid 2px blue; */
+}
+
+.navbar li{
   list-style: none;
-  margin: 2.5rem;
+  padding: 0rem 2rem;
+  font-size: 1.6rem;
 }
-.navbar li a {
-  position: relative;
-  padding: 0.3rem 0.3rem;
+
+.navbar li a{
   text-decoration: none;
   color: #cccccc;
-
+  padding: 2rem 0rem ;
 }
+
 .navbar li a:hover {
-  color: red;
-  transition: color 0.3s ease-in-out;
+  color: yellow;
+  border-bottom: 5px solid yellow;
+  transition: border 0.2s ease-in-out;
 }
-.search {
-  float: right;
-  color: white;
-  padding: 1.5rem 1.5rem;
 
+#rnav{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* border: solid 2px red; */
+  margin: 0rem 1rem;
 }
-.navbar input {
+
+input {
   border: none;
   padding: 1rem 3rem;
   width: 20rem;
+  margin-right: 1rem;
   outline: none;
 }
+
+
 .fa-solid {
   width: 0.2rem;
   position: relative;
@@ -70,26 +101,11 @@ body {
   font-size: 1.2rem;
 }
 
-span img {
-  position: relative;
-  float: left;
-  height: 6.9rem;
-}
-
-header {
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100000;
-}
-
 #b1 {
   background-color: #0078f2;
   border: solid 0.1rem white;
   color: #cfe5fd;
-  float: right;
-  margin: 1.4rem;
-  padding: 1rem 5rem;
+  padding: 0.9rem 5rem;
   font-family: "Lato", sans-serif;
   transition: background-color 0.3s ease-in-out;
 }
@@ -98,7 +114,6 @@ header {
   background-color: #7bbfff;
   cursor: pointer;
 }
-
 /* ------------------------SlideShow CODE----------------------------- */
 
 .container{
