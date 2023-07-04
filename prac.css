@@ -403,9 +403,15 @@ footer{
     font-size: 50%;
   }
 }
-@media (max-width: 1180px) {
+@media (max-width: 1245px) {
   html {
     font-size: 40%;
   }
 }
+@media (max-width: 1000px) {
+  html {
+    font-size: 32%;
+  }
+}
+
 
