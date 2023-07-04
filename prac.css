@@ -122,14 +122,15 @@ input {
   margin-right: 20rem;
   width: auto;
   display: flex;
-  flex-flow: wrap;
   justify-content: space-between;
+  gap: 3%;
+  /* flex-flow: wrap; */
 }
 
 .content{
   border-radius: 2rem;
   width: 110rem;
-  height: 70rem;
+  height: 100%;
 }
 
 .content img{
@@ -138,21 +139,22 @@ input {
 }
 
 #swiptext {
-  width: auto;
-  height: 63rem;
+  width: 25%;
+  /* height: 63rem; */
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
  
 }
 
 #swiptext .tt1 {
   color: white;
   height: 9rem;
-  width: auto;
+  width: 25rem;
   padding: 0rem 2rem;
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
   text-align: center;
   line-height: 9rem;
   font-size: 1.5rem;
@@ -396,23 +398,14 @@ footer{
   color: rgb(217, 255, 0);
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1550px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
 @media (max-width: 1180px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
 }
-/* @media (max-width: 1350px) {
-  html {
-    font-size: 55%;
-  }
-}
-@media (max-width: 768px) {
-  html {
-    font-size: 45%;
-  }
-} */
+
