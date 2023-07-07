@@ -1,0 +1,73 @@
+@import 'navbar';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+// main section 
+.main{
+    background: $light;
+
+    &_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;  //117px
+        height: 90vh;
+        z-index: 1;
+        width: 100%;
+        max-width: 1200px;
+        padding-right: 24px;
+        padding-left: 24px;
+
+        @include tablet{
+            grid-template-columns: 1fr;
+            height: 100%;
+
+        }
+        &_left{
+            width: 100%;
+            line-height: 1.2;
+
+            @include tablet{
+                padding: 5rem 0;
+                
+            }
+            @include mobile{
+                line-height: 1.5;
+
+            }
+        }
+        &_left h1{
+            font-size: 4rem;
+            color: $purple;
+
+            @include mobile{
+                font-size: 1.5rem;
+            }
+        }
+        &_left h2{
+            font-size: 2rem;
+            color: $dark;
+            margin-top: 1rem;
+
+            @include mobile{
+                font-size: 1rem;
+            }
+        }
+        &_left p{
+            font-size: 1.5rem;
+            color: $dark;
+            margin-top: 1rem;
+            font-weight: 500;
+
+            @include mobile{
+                font-size: 1rem;
+            }
+        }
+    }
+}

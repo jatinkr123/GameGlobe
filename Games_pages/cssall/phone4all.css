@@ -1,0 +1,87 @@
+nav{
+    padding: 5rem 0rem 0rem 0rem;
+    margin: 0rem 3.6rem;
+}
+
+.content h3{
+    margin: 0rem 5rem;
+}
+
+.content h4{
+    margin: 0rem 5rem;
+}
+
+.content h5{
+    margin: 0rem 5rem;    
+}
+
+#spectext{
+    height: auto;
+    width: 100%;
+    margin: 5rem 5rem 0rem 5rem;
+    padding: 2rem 5rem;
+}
+
+.specs{
+    margin: 0rem 5rem 5rem 5rem;
+}
+
+/*---------- Slider-Swiper------------------ */
+
+#gname{
+    margin-top: 5rem;
+    width: 100%;
+    /* border: solid 1px red; */
+}
+#gname h3{
+    height: auto;
+    width: auto;
+    /* border: solid 1px blue; */
+    margin: 0rem 5rem;
+    font-size: 3rem;
+}
+
+#abovebox{
+    width: 100%;
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rpanel{
+    margin: 0rem 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.wiperbyj{
+    height: auto;
+    width:100%;
+}
+
+.mySwiper2 {
+    /* UPPER SWIPER BOX */
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0.9rem;
+    /* border: solid 2px orange; */
+}
+
+.mySwiper {
+    /* 2nd swiper height */
+    height:auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 5rem; 
+}
+
+.mySwiper .swiper-slide {
+    opacity: 0.4;
+    padding: 0rem ;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
